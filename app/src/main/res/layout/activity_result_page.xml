@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultPage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="599dp"
+        android:text="Handled time"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="249dp"
+        android:layout_marginBottom="447dp"
+        android:gravity="center"
+        android:text="Handled date"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="132dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="553dp"
+        android:contentDescription="NULL"
+        android:onClick="selectTime"
+        app:srcCompat="@drawable/clock" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="156dp"
+        android:layout_height="148dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:contentDescription="NULL"
+        android:layout_marginBottom="386dp"
+        android:onClick="selectDate"
+        app:srcCompat="@drawable/calendar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="253dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="266dp"
+        android:textSize="20sp"
+        android:onClick="saveDetails"
+        android:text="Save and Upload" />
+
+    <TextView
+        android:id="@+id/showResponse"
+        android:layout_width="361dp"
+        android:layout_height="201dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="43dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:hint="Status Update....." />
+</RelativeLayout>

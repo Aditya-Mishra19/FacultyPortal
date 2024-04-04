@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="622dp"
+        android:gravity="center"
+        android:text="Faculty Portal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="551dp"
+        android:gravity="center"
+        android:text="Faculty Name"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="160dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="477dp"
+        android:gravity="center"
+        android:text="Section"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="152dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="317dp"
+        android:gravity="center"
+        android:text="Course Name"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="160dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="201dp"
+        android:gravity="center"
+        android:text="NO of student attended"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="256dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="539dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/getSection"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="416dp" />
+
+    <Spinner
+        android:id="@+id/getCourseName"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="314dp" />
+
+    <EditText
+        android:id="@+id/getNstudent"
+        android:layout_width="187dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="201dp"
+        android:ems="10"
+        android:hint="XXX"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="98dp"
+        android:text="SUBMIT"
+        android:onClick="submitActivity"
+        android:textSize="20sp" />
+
+</RelativeLayout>
